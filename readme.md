@@ -41,7 +41,9 @@ Click on the "Advanced" tab, then click on the "Environment Variables..."
 3. conda install -c anaconda tensorflow-gpu keras-gpu
 4. conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia   # batavajoh be version cuda 
 5. pip install ipykernel
+   
+![Screenshot 2024-08-03 022404](https://github.com/user-attachments/assets/829041e9-16b8-4970-91f0-8942eb5b2e37)
 
-6. python -m ipykernel install --user --name <myenv> --display-name "Python (GPU)"    # then launch jypiternotebook
-7. pip install --upgrade jupyterhub
-8. pip install --upgrade --user nbconvert
+7. python -m ipykernel install --user --name <myenv> --display-name "Python (GPU)"    # then launch jypiternotebook
+8. pip install --upgrade jupyterhub
+9. pip install --upgrade --user nbconvert
