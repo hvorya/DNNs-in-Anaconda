@@ -45,7 +45,7 @@ Click on the "Advanced" tab, then click on the "Environment Variables..."
  
    ![Screenshot 2024-08-03 024347](https://github.com/user-attachments/assets/7071f306-9961-4dcd-b17c-b85d7ad2631f)
 
-5. pip install ipykernel
+5. python -m ipykernel install --user
    
 ![Screenshot 2024-08-03 022404](https://github.com/user-attachments/assets/829041e9-16b8-4970-91f0-8942eb5b2e37)
 
