@@ -50,5 +50,8 @@ Click on the "Advanced" tab, then click on the "Environment Variables..."
 ![Screenshot 2024-08-03 022404](https://github.com/user-attachments/assets/829041e9-16b8-4970-91f0-8942eb5b2e37)
 
 6. python -m ipykernel install --user --name <myenv> --display-name "Python (GPU)"    # then launch jypiternotebook
-7. pip install --upgrade jupyterhub
-8. pip install --upgrade --user nbconvert
+
+   ![Screenshot 2024-08-03 025207](https://github.com/user-attachments/assets/eb043dec-2941-439c-af2a-3f2bec809c19)
+
+8. pip install --upgrade jupyterhub
+9. pip install --upgrade --user nbconvert
