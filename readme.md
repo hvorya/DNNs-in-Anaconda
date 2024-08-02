@@ -26,7 +26,7 @@ NOTE : MAKE SURE THE CUDNN VERSION AND CUDA TOOLKIT VERSIONS ARE SAME
 10. you have finally completed your CUDA Toolkit installation with CuDNN.
 11. Now it’s time to set Path variables → open Edit environment variables in windows search bar , Click on Environment variables , the click on “path” under user variables then add path of “bin” and “libnvvp”.
 
-11.1 Right-click on Start then click on Run.
+- Right-click on Start then click on Run.
 Type: sysdm.cpl and click on OK.
 Click on the "Advanced" tab, then click on the "Environment Variables..."
     
