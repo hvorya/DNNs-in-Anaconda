@@ -26,7 +26,9 @@ NOTE : MAKE SURE THE CUDNN VERSION AND CUDA TOOLKIT VERSIONS ARE SAME
 10. you have finally completed your CUDA Toolkit installation with CuDNN.
 11. Now it’s time to set Path variables → open Edit environment variables in windows search bar , Click on Environment variables , the click on “path” under user variables then add path of “bin” and “libnvvp”.
 
-
+11.1 Right-click on Start then click on Run.
+Type: sysdm.cpl and click on OK.
+Click on the "Advanced" tab, then click on the "Environment Variables..."
     
 12.Finally you’re done with the installation part of CUDA & CuDNN , just verify it’s properly installed , Goto Power-Shell and enter command “nvidia-smi”.
 
