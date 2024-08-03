@@ -37,7 +37,7 @@ Click on the "Advanced" tab, then click on the "Environment Variables..."
 
 ######################################################################## In cmd.exe prompt
 1. conda create -n  "name of your virtual environment" python=3.6.8
-2. conda activate <myenv>
+2. conda activate "name of your virtual environment"
 3. conda install -c anaconda tensorflow-gpu keras-gpu
 4. conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia   # batavajoh be version cuda
 
