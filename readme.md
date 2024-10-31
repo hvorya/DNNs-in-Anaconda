@@ -36,6 +36,7 @@ Click on the "Advanced" tab, then click on the "Environment Variables..."
 
 13. nvcc --version
 14. nvidia-smi
+    
 ######################################################################## In cmd.exe prompt
 1. conda create -n  "name of your virtual environment" python=3.6.8
 2. conda activate "name of your virtual environment"
