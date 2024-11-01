@@ -1,5 +1,5 @@
 
-[How to install Cuda on Windows 11 and Anaconda?](##How_to_install_Cuda_on_Windows_11_and_Anaconda?)
+[*How to install Cuda on Windows 11 and Anaconda?](##How_to_install_Cuda_on_Windows_11_and_Anaconda?)
 
 [Run Jupyter Notebooks in PyCharm](##Run_Jupyter_Notebooks_in_PyCharm)
 
@@ -47,7 +47,8 @@ Click on the "Advanced" tab, then click on the "Environment Variables..."
 13. nvcc --version
 14. nvidia-smi
     
-######################################################################## In cmd.exe prompt
+-----------------------------------------------------------------------------------
+# In cmd.exe prompt
 1. conda create -n  "name of your virtual environment" python=3.6.8
 2. conda activate "name of your virtual environment"
 3. conda install -c anaconda tensorflow-gpu keras-gpu
@@ -72,5 +73,5 @@ Click on the "Advanced" tab, then click on the "Environment Variables..."
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##Run Jupyter Notebooks in PyCharm
+## Run Jupyter Notebooks in PyCharm
 
