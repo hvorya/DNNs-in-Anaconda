@@ -1,5 +1,5 @@
 
-[*How to install Cuda on Windows 11 and Anaconda?](##How_to_install_Cuda_on_Windows_11_and_Anaconda?)
+*[How to install Cuda on Windows 11 and Anaconda?](##How_to_install_Cuda_on_Windows_11_and_Anaconda?)
 
 [Run Jupyter Notebooks in PyCharm](##Run_Jupyter_Notebooks_in_PyCharm)
 
