@@ -1,7 +1,7 @@
 
 [How to install Cuda on Windows 11 and Anaconda](link)
 
--[How to install Cuda on Windows 11 and Anaconda?](#How_)
+[How to install Cuda on Windows 11 and Anaconda?](## How to install Cuda on Windows 11 and Anaconda?)
 
 
 
