@@ -49,7 +49,8 @@ Click on the "Advanced" tab, then click on the "Environment Variables..."
     
 -----------------------------------------------------------------------------------
 ## Virtual Environment in Anaconda 
-# In cmd.exe prompt
+
+ In Anaconda cmd.exe prompt:
 1. conda create -n  "name of your virtual environment" python=3.6.8
 2. conda activate "name of your virtual environment"
 3. conda install -c anaconda tensorflow-gpu keras-gpu
