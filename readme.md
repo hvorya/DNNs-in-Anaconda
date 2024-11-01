@@ -1,7 +1,7 @@
 
-*[How to install Cuda on Windows 11 and Anaconda?](##How_to_install_Cuda_on_Windows_11_and_Anaconda?)
-
-[Run Jupyter Notebooks in PyCharm](##Run_Jupyter_Notebooks_in_PyCharm)
+* [How to install Cuda on Windows 11 and Anaconda?](##How_to_install_Cuda_on_Windows_11_and_Anaconda?)
+     - [Virtual Environment in Anaconda](##Virtual_Environment_in_Anaconda)
+* [Run Jupyter Notebooks in PyCharm](##Run_Jupyter_Notebooks_in_PyCharm)
 
 
 
@@ -48,6 +48,7 @@ Click on the "Advanced" tab, then click on the "Environment Variables..."
 14. nvidia-smi
     
 -----------------------------------------------------------------------------------
+## Virtual Environment in Anaconda 
 # In cmd.exe prompt
 1. conda create -n  "name of your virtual environment" python=3.6.8
 2. conda activate "name of your virtual environment"
