@@ -1,5 +1,6 @@
 
 [How to install Cuda on Windows 11 and Anaconda?](##How_to_install_Cuda_on_Windows_11_and_Anaconda?)
+
 [Run Jupyter Notebooks in PyCharm](##Run_Jupyter_Notebooks_in_PyCharm)
 
 
@@ -69,7 +70,7 @@ Click on the "Advanced" tab, then click on the "Environment Variables..."
 7. pip install --upgrade jupyterhub
 8. pip install --upgrade --user nbconvert
 
-#################################################################################################################################
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-###Run Jupyter Notebooks in PyCharm
+##Run Jupyter Notebooks in PyCharm
 
