@@ -82,6 +82,8 @@ Click on the "Advanced" tab, then click on the "Environment Variables..."
 ## pip commands
 1. pip install package_name
 2. pip uninstall package_name
-3. pip show package_name
-4. pip freeze
-5. pip cache purge
+3. pip uninstall package_name
+4. pip show package_name
+5. pip freeze requirements.txt
+6. pip cache purge
+7. pip list  
