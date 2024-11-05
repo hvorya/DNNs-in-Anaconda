@@ -3,6 +3,7 @@
      - [Virtual Environment in Anaconda](##Virtual_Environment_in_Anaconda)
 * [Run Jupyter Notebooks in PyCharm](##Run_Jupyter_Notebooks_in_PyCharm)
 * [pip commands](##pip_commands)
+* [Delete Kernel](##How_to_delete_the_old_kernel)
 
 
 
@@ -74,6 +75,12 @@ Click on the "Advanced" tab, then click on the "Environment Variables..."
 7. pip install --upgrade jupyterhub
 8. pip install --upgrade --user nbconvert
 
+-----------------------------------------------
+
+## How to delete the old kernel 
+
+1. jupyter kernelspec list
+2. jupyter kernelspec uninstall your_env_name
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Run Jupyter Notebooks in PyCharm
