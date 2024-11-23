@@ -93,4 +93,5 @@ Click on the "Advanced" tab, then click on the "Environment Variables..."
 4. pip show package_name
 5. pip freeze requirements.txt
 6. pip cache purge
-7. pip list  
+7. pip list
+8. python -m site --user-site  # path to site package
