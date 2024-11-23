@@ -95,3 +95,5 @@ Click on the "Advanced" tab, then click on the "Environment Variables..."
 6. pip cache purge
 7. pip list
 8. python -m site --user-site  # path to site package
+9.  python<version> -m venv <virtual-environment-name> # python3.8 -m venv env
+10.  source env/bin/activate in linux or  env/Scripts/activate.bat //In CMD windows
