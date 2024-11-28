@@ -97,3 +97,16 @@ Click on the "Advanced" tab, then click on the "Environment Variables..."
 8. python -m site --user-site  # path to site package
 9.  python<version> -m venv <virtual-environment-name> # python3.8 -m venv env
 10.  source env/bin/activate in linux or  env/Scripts/activate.bat //In CMD windows
+
+---------------------------------------------------------------------------------------------
+## You can enforce the use of the virtual environment within a script using sys and site modules:
+import sys
+import site
+
+# Set the path to your virtual environment
+venv_path = "path/to/venv"
+
+# Adjust sys.path
+site.addsitedir(f"{venv_path}/lib/pythonX.Y/site-packages")
+sys.executable = f"{venv_path}/bin/python"  # Adjust for Windows paths
+
