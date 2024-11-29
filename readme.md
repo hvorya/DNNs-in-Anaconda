@@ -107,6 +107,10 @@ import site
 venv_path = "path/to/venv"
 
 # Adjust sys.path
+----------------------------------------------------------------------
+# If you have multiple Python versions and want to ensure the virtual environment uses a specific one:
 site.addsitedir(f"{venv_path}/lib/pythonX.Y/site-packages")
 sys.executable = f"{venv_path}/bin/python"  # Adjust for Windows paths
 
+# If you have multiple Python versions and want to ensure the virtual environment uses a specific one
+virtualenv -p /path/to/python myenv
