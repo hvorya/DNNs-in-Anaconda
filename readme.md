@@ -116,11 +116,11 @@ or
     
 Step 1: Create a Python 3 Virtual Environment
 
-  1. virtualenv -p python3.9 <name>
+  1. virtualenv -p python3.9 name
 
 Step 2: Activate the Virtual Environment
 
-   1. source <name>/bin/activate
+   1. source   name/bin/activate
 
 Step 3: Install the IPython Kernel Package
 
