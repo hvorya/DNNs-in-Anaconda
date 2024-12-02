@@ -99,20 +99,8 @@ Click on the "Advanced" tab, then click on the "Environment Variables..."
 10.  source env/bin/activate in linux or  env/Scripts/activate.bat //In CMD windows
 
 ---------------------------------------------------------------------------------------------
-# You can enforce the use of the virtual environment within a script using sys and site modules:
-import sys
-
-import site
-
-# Set the path to your virtual environment
-
-venv_path = "path/to/venv"
-
-----------------------------------------------------------------------
-# If you have multiple Python versions and want to ensure the virtual environment uses a specific one:
-site.addsitedir(f"{venv_path}/lib/pythonX.Y/site-packages")
-
-sys.executable = f"{venv_path}/bin/python"  # Adjust for Windows paths
-
-# If you have multiple Python versions and want to ensure the virtual environment uses a specific one
-virtualenv -p /path/to/python myenv or PYTHONPATH=/path/to/specific/python myenv/bin/activate
+## Removing the Kernels
+1. jupyter kernelspec list
+2. cd /path/to/kernelspecs/kernel_name
+3. rm -r /path/to/kernelspecs/kernel_name
+4. jupyter kernelspec remove kernel_name
