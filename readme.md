@@ -81,6 +81,13 @@ Click on the "Advanced" tab, then click on the "Environment Variables..."
 
 1. jupyter kernelspec list
 2. jupyter kernelspec uninstall your_env_name
+
+or
+
+1. jupyter kernelspec list
+2. cd /path/to/kernelspecs/kernel_name
+3. rm -r /path/to/kernelspecs/kernel_name
+4. jupyter kernelspec remove kernel_name
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Run Jupyter Notebooks in PyCharm
@@ -99,8 +106,19 @@ Click on the "Advanced" tab, then click on the "Environment Variables..."
 10.  source env/bin/activate in linux or  env/Scripts/activate.bat //In CMD windows
 
 ---------------------------------------------------------------------------------------------
-## Removing the Kernels
-1. jupyter kernelspec list
-2. cd /path/to/kernelspecs/kernel_name
-3. rm -r /path/to/kernelspecs/kernel_name
-4. jupyter kernelspec remove kernel_name
+
+# How to Add a Python 3 Kernel to Jupyter IPython
+
+ step 0: Prerequisites
+ 1. Python 3.x (preferably the latest version)
+ 2. Jupyter Notebook
+ 3. virtualenv (for creating virtual environments)
+Step 1: Create a Python 3 Virtual Environment
+  1. virtualenv -p python3 my-python3-env
+Step 2: Activate the Virtual Environment
+   1. source my-python3-env/bin/activate
+Step 3: Install the IPython Kernel Package
+   1. pip install ipykernel
+Step 4: Register the Kernel with Jupyter
+   1.   python -m ipykernel install --user --name=my-python3-kernel               
+                  
