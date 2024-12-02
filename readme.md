@@ -113,12 +113,20 @@ or
  1. Python 3.x (preferably the latest version)
  2. Jupyter Notebook
  3. virtualenv (for creating virtual environments)
+    
 Step 1: Create a Python 3 Virtual Environment
+
   1. virtualenv -p python3 my-python3-env
+
 Step 2: Activate the Virtual Environment
+
    1. source my-python3-env/bin/activate
+
 Step 3: Install the IPython Kernel Package
+
    1. pip install ipykernel
+
 Step 4: Register the Kernel with Jupyter
+
    1.   python -m ipykernel install --user --name=my-python3-kernel               
                   
